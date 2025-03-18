@@ -1,21 +1,21 @@
-#Rubiks
+# Rubiks
 Rubiks is a Python program which can solve standard 3x3x3 Rubiks cubes
 
-##Installation
+## Installation
 tbd
 
 ```bash
 pip install XXXX
 ```
 
-##Usage
+## Usage
 
 ```python
 #sample commands and expected output here
 ```
 
-##Contributing
+## Contributing
 tbd
 
-##License
+## License
 tbd
