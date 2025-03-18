@@ -24,14 +24,15 @@ class cube():
 
 #class for a cube face
 class face():
-   name = "name"
-   top, mid, bot = [[9,9,9],[9,9,9],[9,9,9]]
-   map = [top, mid, bot]
+   #top, mid, bot = [[9,9,9],[9,9,9],[9,9,9]]
+   #map = [top, mid, bot]
 
    #need variable for adjacent face info?
 
    def __init__(self, name, color):
       self.name = name
+      self.top, self.mid, self.bot = [[9,9,9],[9,9,9],[9,9,9]]
+      self.map = [self.top, self.mid, self.bot]
       for i in range(len(self.map)):
          for j in range(len(self.map)):
             self.map[i][j] = color
