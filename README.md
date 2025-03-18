@@ -5,7 +5,7 @@ Rubiks is a Python program which can solve standard 3x3x3 Rubiks cubes
 tbd
 
 ```bash
-pip install Rubiks
+pip install XXXX
 ```
 
 ##Usage
